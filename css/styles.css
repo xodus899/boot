@@ -142,6 +142,10 @@ section#cta {
   padding:1%;
 }
 
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
 
 
 
