@@ -163,13 +163,16 @@ section#cta {
 }
 
 @media only screen and (max-width: 600px) {
+  .title-img-main {
+    text-align:center;
+  }
   h1 {
     font-size:2rem;
   }
   .iphone-img {
-    width:80%;
+    width:100%;
     transform: rotate(0);
-    margin: 0;
+    margin: 0 auto;
 
   }
 }
