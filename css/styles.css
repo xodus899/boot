@@ -116,8 +116,13 @@ h1.card-title.pricing-card-title {
   color:#ff4c68;
 }
 
+.card-header h4 {
+  color:white;
+}
+
 .planBtn {
   background:#ef8172;
+  color:white;
   border:1px solid #ff4c68;
 }
 
