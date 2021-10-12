@@ -127,6 +127,7 @@ h1.card-title.pricing-card-title {
 
 #cta h3 {
   text-align:center;
+  color:white;
 }
 section#pricing {
   padding:3% 1%;
@@ -134,12 +135,15 @@ section#pricing {
 
 section#cta {
   text-align:center;
+  padding-top: 5%;
+  background:#ef8172;
 }
 
-#footer,section#cta {
+#footer {
   text-align:center;
-  background:#ef8172;
   padding:1%;
+  background:#ef8172;
+  color:white;
 }
 
 .navbar-toggler:focus {
