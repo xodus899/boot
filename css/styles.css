@@ -161,6 +161,9 @@ section#cta {
   font-style:italic;
 }
 
+.hidden {
+  visbility:hidden;
+
 
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
   h1 {
