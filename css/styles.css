@@ -88,7 +88,6 @@ i.fas.fa-heart:hover,i.fas.fa-bullseye:hover, i.fas.fa-check-circle:hover {
 
 #testimonials h2 {
   font-family: 'Montserrat-bold', sans-serif;
-  font-size:2rem;
   line-height:1.5;
 }
 
@@ -131,8 +130,8 @@ h1.card-title.pricing-card-title {
 }
 
 #cta h3 {
+  text-align: center;
   color:white;
-  text-align:center;
 }
 section#pricing {
   padding:3% 1%;
@@ -140,8 +139,8 @@ section#pricing {
 
 section#cta {
   background:#ef8172;
-  padding-top: 5%;
-  text-align:center;
+  padding-top:5%;
+  text-align: center;
 }
 
 #footer {
@@ -161,8 +160,16 @@ section#cta {
   font-style:italic;
 }
 
-.hidden {
-  visibility:hidden;
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card.mb-4.rounded-3.shadow-sm {
+  height: 100%;
+  vertical-align: top;
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
