@@ -1,5 +1,6 @@
 body {
   font-family: 'Ubuntu', sans-serif;
+  overscroll-behavior: none;
 }
 
 .navbar-brand,h1 {
@@ -173,6 +174,9 @@ section#cta {
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
+  body {
+    overscroll-behavior: inherit;
+  }
   h1 {
     font-size:2rem;
   }
@@ -183,6 +187,9 @@ section#cta {
 }
 
 @media only screen and (max-width: 600px) {
+  body {
+    overscroll-behavior: inherit;
+  }
   .title-img-main {
     text-align:center;
   }
